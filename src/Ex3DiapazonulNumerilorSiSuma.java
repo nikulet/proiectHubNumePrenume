@@ -3,7 +3,8 @@ public class Ex3DiapazonulNumerilorSiSuma {
         int sum=0;
         for (int i=25;i<=30;i++){
             sum+=i;
+            System.out.print(i+" ");
         }
-        System.out.println("Suma "+sum);
+        System.out.println("\nSuma "+sum);
     }
 }
